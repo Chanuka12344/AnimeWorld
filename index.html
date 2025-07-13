@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeWorld - Stream Premium Anime</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style 01.css">
+	
+</head>
+<body>
+    <!-- 3D Background Elements -->
+    <div class="parallax-bg">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+    
+    <!-- Header with Glass Morphism -->
+    <header>
+        <div class="logo">
+            <i class="fas fa-dragon"></i>
+            <span>AnimeWorld</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                <li><a href="genres.html"><i class="fas fa-tags"></i> Genres</a></li>
+                <li><a href="schedule.html"><i class="fas fa-calendar-alt"></i> Schedule</a></li>
+                <li><a href="request animes.html"><i class="fas fa-bookmark"></i> Request Animes</a></li>
+            </ul>
+        </nav>
+		<div class="search-bar">
+			<input type="text" id="searchInput" placeholder="Search anime...">
+			<button><i class="fas fa-search"></i></button>
+			<div class="search-results" id="searchResults"></div>
+		</div>
+    </header>
+    
+    <!-- Hero Section with 3D Parallax -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content animate-on-scroll">
+            <h1>Unlimited Anime Streaming</h1>
+            <p>Watch thousands of anime series and movies in HD quality with English subtitles or dubbing. New episodes added daily!</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary"><i class="fas fa-play"></i> Start Watching Free</a>
+                <a href="#" class="btn btn-secondary"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Anime Section -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Featured Anime</h2>
+            <div class="anime-slider">
+                <!-- Featured Item 1 -->
+				<div class="slider-item animate-on-scroll" data-anime-id="demon-slayer">
+					<span class="badge">Trending</span>
+					<img src="https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="Demon Slayer">
+					<div class="slider-info">
+						<h3>Demon Slayer: Swordsmith Village</h3>
+						<p>Tanjiro ventures to the Swordsmith Village to repair his sword after intense battles.</p>
+						<div class="rating">
+							<i class="fas fa-star"></i> 9.2/10
+						</div>
+					</div>
+				</div>
+								
+                <!-- Featured Item 2 -->
+				<div class="slider-item animate-on-scroll" data-anime-id="jujutsu-kaisen">
+					<span class="badge">Trending</span>
+					<img src="https://cdn.myanimelist.net/images/anime/1792/138022.webp" alt="Jujutsu Kaisen">
+					<div class="slider-info">
+						<h3>Jujutsu Kaisen Season 2</h3>
+						<p>The second season adapts the "Hidden Inventory/Premature Death" arc</p>
+						<div class="rating">
+							<i class="fas fa-star"></i> 9.5/10
+						</div>
+					</div>
+				</div>
+              
+                <!-- Featured Item 3 -->
+                <div class="slider-item animate-on-scroll" data-anime-id="Suzume">
+                    <span class="badge">Movie</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Suzume_no_Tojimari_poster.jpg" alt="Suzume">
+                    <div class="slider-info">
+                        <h3>Suzume no Tojimari</h3>
+                        <p>Suzume, a 17-year-old girl, meets a young man searching for a mysterious door.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 9.0/10
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Item 4 -->
+                <div class="slider-item animate-on-scroll">
+                    <span class="badge">Completed</span>
+                    <img src="https://cdn.myanimelist.net/images/anime/1170/124312.jpg" alt="Vinland Saga">
+                    <div class="slider-info">
+                        <h3>Vinland Saga Season 2</h3>
+                        <p>Thorfinn's journey continues in this historical epic.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 9.3/10
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Item 5 -->
+                <div class="slider-item animate-on-scroll">
+                    <span class="badge">Popular</span>
+                    <img src="https://cdn.myanimelist.net/images/anime/1483/126005.jpg" alt="My Hero Academia">
+                    <div class="slider-info">
+                        <h3>My Hero Academia Season 6</h3>
+                        <p>The Paranormal Liberation War arc brings intense battles.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 8.9/10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Browse Categories</h2>
+            <div class="category-grid">
+                <!-- Category 1 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>Action</h3>
+                    <p>High-energy battles and intense fights</p>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-heart"></i>
+                    <h3>Romance</h3>
+                    <p>Heartwarming love stories</p>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-ghost"></i>
+                    <h3>Horror</h3>
+                    <p>Chilling and terrifying tales</p>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-laugh-squint"></i>
+                    <h3>Comedy</h3>
+                    <p>Hilarious and lighthearted</p>
+                </div>
+                
+                <!-- Category 5 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Sci-Fi</h3>
+                    <p>Futuristic technology and space</p>
+                </div>
+                
+                <!-- Category 6 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-hat-wizard"></i>
+                    <h3>Fantasy</h3>
+                    <p>Magical worlds and creatures</p>
+                </div>
+                
+                <!-- Category 7 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>School</h3>
+                    <p>Life in academic settings</p>
+                </div>
+                
+                <!-- Category 8 -->
+                <div class="category-card animate-on-scroll">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Mystery</h3>
+                    <p>Puzzles to solve and secrets to uncover</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- New Releases Section -->
+    <section class="new-releases">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">New Releases</h2>
+            <div class="anime-grid">
+                <!-- Anime 1 -->
+                <div class="anime-card animate-on-scroll">
+                    <span class="episode-count">Ep 12/24</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqUNEW3tbzPiiyXWlCCEMLx-Z60b62dQcoWQ&s" alt="Chainsaw Man">
+                    <div class="anime-info">
+                        <h3>Chainsaw Man</h3>
+                        <p>Action, Horror, Supernatural</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 9.1/10
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Anime 2 -->
+                <div class="anime-card animate-on-scroll">
+                    <span class="episode-count">Ep 1/12</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQruVzBFg3unMvx1kvGhjmeae9gH3tQC8Xg6A&s" alt="Hell's Paradise">
+                    <div class="anime-info">
+                        <h3>Hell's Paradise</h3>
+                        <p>Action, Fantasy, Adventure</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 8.7/10
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Anime 3 -->
+                <div class="anime-card animate-on-scroll">
+                    <span class="episode-count">Ep 2/12</span>
+                    <img src="https://cdn.myanimelist.net/images/anime/1316/136268.jpg" alt="Dr. Stone">
+                    <div class="anime-info">
+                        <h3>Dr. Stone: New World</h3>
+                        <p>Adventure, Sci-Fi, Shounen</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 8.8/10
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Anime 4 -->
+                <div class="anime-card animate-on-scroll">
+                    <span class="episode-count">Ep 3/12</span>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTUwMjM2ZTctMjI5Yi00MjIwLWJlYzAtNjk5MDQ0NTlmZWJjXkEyXkFqcGc@._V1_.jpg" alt="Mashle">
+                    <div class="anime-info">
+                        <h3>Mashle: Magic and Muscles</h3>
+                        <p>Action, Comedy, Fantasy</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i> 8.5/10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Section -->
+    <section class="newsletter animate-on-scroll">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter to get notified about new releases, special events, and exclusive content.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>AnimeWorld</h3>
+                <p>Your ultimate destination for anime streaming. Watch thousands of anime series and movies in high quality with English subtitles or dubbing.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Browse</h3>
+                <ul>
+                    <li><a href="#">Popular Anime</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Seasonal Anime</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Simulcasts</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Account Help</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Supported Devices</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 AnimeWorld. All rights reserved. All anime titles and logos are trademarks of their respective owners.
+        </div>
+    </footer>
+			<!-- Anime Details Modal -->
+		<div class="anime-modal" id="animeModal">
+			<div class="modal-content">
+				<span class="close-modal">&times;</span>
+				<div class="modal-body">
+					<div class="modal-left">
+						<img id="modalThumbnail" src="" alt="">
+					</div>
+					<div class="modal-right">
+						<h2 id="modalTitle"></h2>
+						<div class="meta-info">
+							<span id="modalRating"></span>
+							<span id="modalYear"></span>
+							<span id="modalStatus"></span>
+							<span id="modalStudio"></span>
+						</div>
+						<p id="modalDescription"></p>
+						<div class="categories" id="modalCategories"></div>
+						<h3>Episodes</h3>
+						<div class="episodes-list" id="modalEpisodes"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+    <script>
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // Add floating animation to cards
+            document.querySelectorAll('.anime-card, .category-card').forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+            });
+        });
+        
+        // Parallax effect
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.pageYOffset;
+            const parallaxBg = document.querySelector('.parallax-bg');
+            parallaxBg.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+            
+            const header = document.querySelector('header');
+            if (scrollPosition > 100) {
+                header.style.background = 'rgba(10, 10, 26, 0.95)';
+                header.style.boxShadow = '0 5px 30px rgba(0, 0, 0, 0.4)';
+            } else {
+                header.style.background = 'rgba(10, 10, 26, 0.7)';
+                header.style.boxShadow = '0 5px 30px rgba(0, 0, 0, 0.3)';
+            }
+        });
+        
+        // Slider navigation
+        const slider = document.querySelector('.anime-slider');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.style.cursor = 'grabbing';
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+        
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.style.cursor = 'grab';
+        });
+        
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.style.cursor = 'grab';
+        });
+        
+        slider.addEventListener('mousemove', (e) => {
+            if(!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2;
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    </script>
+		<!-- Add this line before the closing </body> tag -->
+	<script src="script.js"></script>
+</body>
+</html>
