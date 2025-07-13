@@ -1,0 +1,77 @@
+[
+  {
+    "id": "demon-slayer",
+    "name": "Demon Slayer: Swordsmith Village",
+    "description": "Tanjiro ventures to the Swordsmith Village to repair his sword after intense battles.",
+    "fullDescription": "After his intense battles in the Entertainment District, Tanjiro journeys to the Swordsmith Village to repair his Nichirin Blade. There he meets the Love Hashira Mitsuri Kanroji and the Mist Hashira Muichiro Tokito. As the demons target the village, Tanjiro must protect the swordsmiths while uncovering secrets about his blade.",
+    "category": ["Action", "Fantasy", "Shounen"],
+    "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "banner": "https://example.com/banners/demon-slayer.jpg",
+    "episodes": [
+      {
+        "number": 1,
+        "title": "Someone's Dream",
+        "url": "127.0.0.1:8080/Demon%20Slayer.html"
+      },
+      {
+        "number": 2,
+        "title": "Yoriichi Type Zero",
+        "url": "127.0.0.1:8080/Demon%20Slayer.html"
+      }
+    ],
+    "rating": 9.2,
+    "year": 2023,
+    "status": "Ongoing",
+    "studio": "Ufotable"
+  },
+  {
+    "id": "jujutsu-kaisen",
+    "name": "Jujutsu Kaisen Season 2",
+    "description": "The second season adapts the 'Hidden Inventory/Premature Death' arc.",
+    "fullDescription": "The second season of Jujutsu Kaisen adapts the 'Hidden Inventory/Premature Death' arc, which focuses on Gojo's past as a student and the events that shaped him into the strongest sorcerer. The story then transitions to the 'Shibuya Incident' arc where the villains make their move to seal Gojo Satoru.",
+    "category": ["Action", "Supernatural", "Horror"],
+    "thumbnail": "https://cdn.myanimelist.net/images/anime/1792/138022.webp",
+    "banner": "https://example.com/banners/jujutsu-kaisen.jpg",
+    "episodes": [
+      {
+        "number": 1,
+        "title": "Hidden Inventory",
+        "url": "https://example.com/stream/jujutsu-ep1"
+      },
+      {
+        "number": 2,
+        "title": "Premature Death",
+        "url": "https://example.com/stream/jujutsu-ep2"
+      }
+    ],
+    "rating": 9.5,
+    "year": 2023,
+    "status": "Airing",
+    "studio": "MAPPA"
+  },
+  {
+    "id": "Suzume",
+    "name": "Jujutsu Kaisen Season 2",
+    "description": "The second season adapts the 'Hidden Inventory/Premature Death' arc.",
+    "fullDescription": "The second season of Jujutsu Kaisen adapts the 'Hidden Inventory/Premature Death' arc, which focuses on Gojo's past as a student and the events that shaped him into the strongest sorcerer. The story then transitions to the 'Shibuya Incident' arc where the villains make their move to seal Gojo Satoru.",
+    "category": ["Action", "Supernatural", "Horror"],
+    "thumbnail": "https://cdn.myanimelist.net/images/anime/1792/138022.webp",
+    "banner": "https://example.com/banners/jujutsu-kaisen.jpg",
+    "episodes": [
+      {
+        "number": 1,
+        "title": "Hidden Inventory",
+        "url": "https://example.com/stream/jujutsu-ep1"
+      },
+      {
+        "number": 2,
+        "title": "Premature Death",
+        "url": "https://example.com/stream/jujutsu-ep2"
+      }
+    ],
+    "rating": 9.5,
+    "year": 2023,
+    "status": "Airing",
+    "studio": "MAPPA"
+  }
+]
